@@ -1,0 +1,85 @@
+#brand{
+  color: lime;
+}
+#details{
+  padding: 120px 0;
+  background-image: url(../img/contra2.jpg);
+  background-repeat: no-repeat;
+  background-size: 1400px 900px;
+  color: white;
+}
+#how{
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+.aje{
+  background-color: #eceff0;
+}
+.card{
+  margin: 10px;
+  padding: 0px;
+}
+.priv{
+  float: right;
+}
+.panel-footer{
+  text-align: center;
+  font-family: 'Cookie', cursive;
+  font-size: 15px;
+  background-color: rgb(101, 101, 101);
+}
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: white;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin: 55px;
+}
+#process{
+  padding-top: 15px;
+}
+.panel-footer a{
+  color: white;
+}
+
+#myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 20%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    float: right;
+}
+
+#myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myUL li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Grey background color */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 18px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
